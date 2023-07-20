@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Jogo de Campo Minado - Emoções</title>
+<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <h1>Jogo de Campo Minado das Emoções</h1>
+
+<div class="cont">
+  <div class="pr">
+      <div id="game-board"></div>
+      <div id="game-panel">
+          <h3>Pontuação:</h3>
+          <p>Total: <span id="score-display">0</span></p>
+          <ul id="emotions-display"></ul>
+          <div class="fn">
+            <div id="end-game-display"></div>
+            <button id="play-again-button" style="display: none;">Jogar Novamente</button>
+          </div>
+        </div>
+  </div>
+
+  <div class="inf">
+      <p><b>Informações do Jogo:</b> Células Restantes: <span id="remaining-cells">16</span> | Rodada nº: <span id="rounds-display">0</span></p>
+  </div>
+
+</div>
+    <script src="game.js"></script>
+</body>
+</html>

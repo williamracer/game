@@ -1,0 +1,59 @@
+*{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.cont {
+  position: relative;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+.pr {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  width: 680px;
+  height: 420px;
+  border-radius: 16px;
+  background-color: #e7e7e7;
+}
+.cell {
+    width: 90px;
+    height: 90px;
+    border: 2px solid #e7e7e7;
+    border-radius: 50%;
+    box-shadow: inset -5px 10px 12px #1a1a1a;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 10px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #474747;
+    color: #fff;
+}
+/* Estilos para células com minas */
+.mine {
+    background-color: #540a0a;
+    font-size: 60px;
+  }
+
+h1 {
+  font-size: x-large;
+  color: #3b3b3b;
+}
+
+#game-board {
+  position: relative;
+  float: left;
+  margin: auto;
+}
+#game-panel {
+  position: relative;
+  float: right;
+  width: 240px;
+  padding: 8px;
+  border-radius: 0 16px 16px 0;
+  background-color: #294a97;
+  color: #ffffff;
+  box-shadow: -5px 10px 16px inset #000;
+}
